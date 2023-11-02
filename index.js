@@ -45,3 +45,7 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Serveur Express en cours d'exécution sur le port ${port}`);
 });
+
+
+// Export the Express API
+module.exports = app
